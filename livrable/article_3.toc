@@ -1,0 +1,31 @@
+\babel@toc {english}{}
+\contentsline {section}{Introduction}{1}{Doc-Start}%
+\contentsline {section}{\numberline {1}Méthode}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Documentation}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Matériel}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Procédures}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}État de l'art}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}La ACA}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Présentation de l'algorithme}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Analyse du coût}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}La MLACA}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Présentation de l'algorithme}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Analyse du coût}{2}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Approximation par blocs}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Algorithme}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Parallélisation}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Analyses du coût}{2}{subsection.3.3}%
+\contentsline {section}{Conclusion}{2}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Exemples}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Subsection}{2}{subsection.4.1}%
+\contentsline {paragraph}{Paragraph}{2}{paragraph*.2}%
+\contentsline {paragraph}{Paragraph}{2}{paragraph*.3}%
+\contentsline {subsection}{\numberline {4.2}Subsection}{2}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Results and Discussion}{2}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Subsection}{2}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Subsubsection}{2}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Subsubsection}{2}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Subsubsection}{2}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}Subsection}{2}{subsection.5.2}%
+\contentsline {section}{Acknowledgments}{2}{section*.6}%
+\contentsfinish 

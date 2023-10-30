@@ -1,0 +1,15 @@
+Pour l'instant parallélisation en niveau (voir pk c'est pas optimal)
+il faut optimiser sur les bloc mais c'est pas scallable a cause des gros blocs
+
+objectif : modifier ACA pour trouver comment bien parralléliser (essayer au max et bien rapporter les différentes etapes, analyser la scallabilité a chaque etape)
+
+Prendre UE Parpin (calcul parrallele pour ingenieur)
+
+travail sur la branche develop de github, voir readme
+
+un classe dans le code git qui gere la MLACA
+- prise en main de MLACA et voir les pb de scalabilité
+- voir comment resoudre les pb avec la litterature
+
+
+Utilisation de libraire Alglib : mais pas de multithreading

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-nojs" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #454a4d #202324;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}</style>
+<meta charset="UTF-8">
+<title>Rosetta Code</title>
+<script src="Rosetta%20Code_fichiers/7qaJovFEYxjqsAZAxmfekTkNrFg.js"></script><meta name="darkreader" content="5e3f12dc6b7c4410beef773341e1870a"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1 {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style><script type="e5fe7fff15d55f03ce53a59f-text/javascript">document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script type="e5fe7fff15d55f03ce53a59f-text/javascript">window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Rosetta_Code","wgTitle":"Rosetta Code","wgCurRevisionId":219738,"wgRevisionId":219738,"wgArticleId":1,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Rosetta_Code","wgRelevantArticleId":1,"wgIsProbablyEditable":!1,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":!0,"sfgAutocompleteValues":[],"sfgAutocompleteOnAllChars":!1,"sfgFieldProperties":[],
+"sfgDependentFields":[],"sfgShowOnSelect":[],"sfgScriptPath":"/mw/extensions/SemanticForms","sdgDownArrowImage":"/mw/extensions/SemanticDrilldown/skins/down-arrow.png","sdgRightArrowImage":"/mw/extensions/SemanticDrilldown/skins/right-arrow.png"});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["ext.smw.style","ext.smw.tooltips","mediawiki.page.startup","mediawiki.legacy.wikibits"]);
+} );</script>
+<link rel="stylesheet" href="Rosetta%20Code_fichiers/load.css" media=""><style class="darkreader darkreader--sync" media="screen"></style>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Rosetta%20Code_fichiers/load_002.css" media=""><style class="darkreader darkreader--sync" media="screen"></style>
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style><style class="darkreader darkreader--sync" media="screen"></style>
+<script async="" src="Rosetta%20Code_fichiers/load.php" type="e5fe7fff15d55f03ce53a59f-text/javascript"></script>
+<meta name="generator" content="MediaWiki 1.26.2">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="ExportRDF" type="application/rdf+xml" title="Rosetta Code" href="https://rosettacode.org/mw/index.php?title=Special:ExportRDF/Rosetta_Code&amp;xmlmime=rdf">
+<link rel="shortcut icon" href="https://rosettacode.org/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://rosettacode.org/mw/opensearch_desc.php" title="Rosetta Code (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://rosettacode.org/mw/api.php?action=rsd">
+<link rel="copyright" href="https://www.gnu.org/licenses/fdl-1.2.html">
+<link rel="alternate" type="application/atom+xml" title="Rosetta Code Atom feed" href="https://rosettacode.org/mw/index.php?title=Special:RecentChanges&amp;feed=atom">
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Rosetta_Code layout-standard skin-chameleon action-view">
+<div class="container">
+<div class="row">
+<div class="col-lg-3">
+
+<div id="p-logo" class="p-logo" role="banner">
+<a href="https://rosettacode.org/wiki/Rosetta_Code" title="Visit the main page"><img src="Rosetta%20Code_fichiers/title.png" alt="Rosetta Code"></a>
+</div>
+</div>
+<div class="col-lg-9">
+<div class="row">
+<div class="col-lg-12">
+
+<div class="p-personal pull-right" id="p-personal">
+ <ul class="p-personal-tools list-inline pull-right">
+<li id="pt-createaccount"><a href="https://rosettacode.org/mw/index.php?title=Special:UserLogin&amp;returnto=Rosetta+Code&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li>
+<li id="pt-login"><a href="https://rosettacode.org/mw/index.php?title=Special:UserLogin&amp;returnto=Rosetta+Code" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+<div class="newtalk-notifier">
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<div id="p-search" class="p-search pull-right" role="search">
+<form id="searchform" class="mw-search form-inline" action="/mw/index.php">
+<input type="hidden" name="title" value="Special:Search">
+<div class="input-group">
+<input name="search" placeholder="Search" title="Search Rosetta Code [f]" accesskey="f" id="searchInput" class="form-control">
+<div class="input-group-btn">
+<button value="Go" id="searchGoButton" name="go" title="Go to a page with this exact name if it exists" type="submit" class="searchGoButton btn btn-default"><span class="glyphicon glyphicon-share-alt"></span></button><button value="Search" id="mw-searchButton" name="fulltext" title="Search the pages for this text" type="submit" class="mw-searchButton btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<nav class="navbar navbar-default p-navbar" role="navigation" id="mw-navigation">
+<div class="container-fluid"><div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mw-navigation-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="mw-navigation-collapse"><ul class="nav navbar-nav">
+
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+<ul class="dropdown-menu p-Community" id="p-Community">
+<li id="n-Twitter"><a href="https://twitter.com/rosettacode" rel="nofollow">Twitter</a></li>
+<li id="n-Chat.2FIRC"><a href="https://rosettacode.org/wiki/Special:WebChat">Chat/IRC</a></li>
+<li id="n-Planet"><a href="https://rosettacode.org/planet" rel="nofollow">Planet</a></li>
+<li id="n-The-Village-Pump"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump">The Village Pump</a></li>
+<li id="n-Finances"><a href="https://rosettacode.org/wiki/Rosetta_Code:Finances">Finances</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
+<ul class="dropdown-menu p-Explore" id="p-Explore">
+<li id="n-Languages"><a href="https://rosettacode.org/wiki/Category:Programming_Languages">Languages</a></li>
+<li id="n-Tasks"><a href="https://rosettacode.org/wiki/Category:Programming_Tasks">Tasks</a></li>
+<li id="n-recentchanges"><a href="https://rosettacode.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-Similar-sites"><a href="https://rosettacode.org/wiki/Help:Similar_Sites">Similar sites</a></li>
+<li id="n-randompage"><a href="https://rosettacode.org/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+</ul>
+</li></ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<ul class="p-contentnavigation list-inline text-center" id="p-contentnavigation">
+
+<li id="p-namespaces">
+<ul class="list-inline">
+<li id="ca-nstab-main" class="selected"><a href="https://rosettacode.org/wiki/Rosetta_Code" title="View the content page [c]" accesskey="c" class="selected">Main page</a></li>
+<li id="ca-talk"><a href="https://rosettacode.org/wiki/Talk:Rosetta_Code" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+</ul>
+</li>
+
+<li id="p-views">
+<ul class="list-inline">
+<li id="ca-viewsource"><a href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;action=edit" title="This page is protected.
+You can view its source [e]" accesskey="e">View source</a></li>
+<li id="ca-history"><a href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<div id="siteNotice" class="siteNotice "><div id="localNotice" dir="ltr" lang="en"><table class="messagebox" style="text-align: center; background-color: lightyellow; clear: both; --darkreader-inline-bgcolor: #343400;" data-darkreader-inline-bgcolor="">
+<tbody><tr>
+<td> <b>I'm working on modernizing Rosetta Code's infrastructure. Starting with communications. Please accept <a rel="nofollow" class="external text" href="https://join.slack.com/t/rosettacode/shared_invite/zt-glwmugtu-xpMPcqHs0u6MsK5zCmJF~Q">this time-limited open invite to RC's Slack.</a>. --<a href="https://rosettacode.org/wiki/User:Short_Circuit" title="User:Short Circuit">Michael Mol</a> (<a href="https://rosettacode.org/wiki/User_talk:Short_Circuit" title="User talk:Short Circuit">talk</a>) 20:59, 30 May 2020 (UTC)</b>
+</td></tr></tbody></table>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<div id="content" class="mw-body"><a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+<div class="contentHeader">
+
+<h1 id="firstHeading" class="firstHeading">Rosetta Code</h1>
+
+<div id="siteSub">From Rosetta Code</div><div id="jump-to-nav" class="mw-jump">Jump to:<a href="#mw-navigation">navigation</a>, <a href="#p-search">search</a></div>
+</div><div id="bodyContent">
+
+<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><p>Rosetta Code is a <a href="https://en.wikipedia.org/wiki/Chrestomathy" class="extiw" title="wp:Chrestomathy">programming chrestomathy</a>
+ site. The idea is to present solutions to the same task in as many 
+different languages as possible, to demonstrate how languages are 
+similar and different, and to aid a person with a grounding in one 
+approach to a problem in learning another. Rosetta Code currently has 
+1,184 <a href="https://rosettacode.org/wiki/Category:Solutions_by_Programming_Task" title="Category:Solutions by Programming Task">tasks</a>, 349 <a href="https://rosettacode.org/wiki/Category:Draft_Programming_Tasks" title="Category:Draft Programming Tasks">draft tasks</a>, and is aware of 867 <a href="https://rosettacode.org/wiki/Category:Programming_Languages" title="Category:Programming Languages">languages</a>, though we do not (and cannot) have solutions to every task in every language.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Places_to_start"><span class="tocnumber">1</span> <span class="toctext">Places to start</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Recently-Updated_Tasks"><span class="tocnumber">1.1</span> <span class="toctext">Recently-Updated Tasks</span></a></li>
+<li class="toclevel-2"><a href="#Ways_to_Contribute"><span class="tocnumber">1.2</span> <span class="toctext">Ways to Contribute</span></a></li>
+<li class="toclevel-2"><a href="#Recent_Discussions"><span class="tocnumber">1.3</span> <span class="toctext">Recent Discussions</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="Places_to_start">Places to start</span></h2>
+<h3><span class="mw-headline" id="Recently-Updated_Tasks">Recently-Updated Tasks</span></h3>
+<table class="sortable wikitable smwtable" width="100%"><tbody><tr><th>&nbsp;</th></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Permutations/Derangements" title="Permutations/Derangements">Permutations/Derangements</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Permutations" title="Permutations">Permutations</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/99_bottles_of_beer" title="99 bottles of beer">99 bottles of beer</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Longest_common_subsequence" title="Longest common subsequence">Longest common subsequence</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Sieve_of_Eratosthenes" title="Sieve of Eratosthenes">Sieve of Eratosthenes</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Binary_search" title="Binary search">Binary search</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Barnsley_fern" title="Barnsley fern">Barnsley fern</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Reverse_words_in_a_string" title="Reverse words in a string">Reverse words in a string</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/FASTA_format" title="FASTA format">FASTA format</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Execute_a_system_command" title="Execute a system command">Execute a system command</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Gauss-Jordan_matrix_inversion" title="Gauss-Jordan matrix inversion">Gauss-Jordan matrix inversion</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Gaussian_elimination" title="Gaussian elimination">Gaussian elimination</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Deconvolution/2D%2B" title="Deconvolution/2D+">Deconvolution/2D+</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Deconvolution/1D" title="Deconvolution/1D">Deconvolution/1D</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Generic_swap" title="Generic swap">Generic swap</a></td></tr><tr class="smwfooter row-even"><td class="sortbottom" colspan="1"><span class="smw-broadtable-furtherresults"><a href="https://rosettacode.org/wiki/Special:Ask/-5B-5BIs-20task::true-5D-5D/format%3Dbroadtable/limit%3D15/offset%3D15/sort%3DModification-20date/order%3Ddesc/searchlabel%3Dmore..." title="Special:Ask/-5B-5BIs-20task::true-5D-5D/format=broadtable/limit=15/offset=15/sort=Modification-20date/order=desc/searchlabel=more...">more...</a></span></td></tr></tbody></table>
+<h3><span class="mw-headline" id="Ways_to_Contribute">Ways to Contribute</span></h3>
+<table class="sortable wikitable smwtable" width="100%"><tbody><tr><th>&nbsp;</th></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Category:Unimplemented_tasks_by_language" title="Category:Unimplemented tasks by language">Unimplemented tasks by language</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Category:Examples_needing_attention" title="Category:Examples needing attention">Examples needing attention</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Add_a_Language" title="Rosetta Code:Add a Language">Add a Language</a></td></tr></tbody></table>
+<h3><span class="mw-headline" id="Recent_Discussions">Recent Discussions</span></h3>
+<table class="sortable wikitable smwtable" width="100%"><tbody><tr><th>&nbsp;</th></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/RC_thinks_cookies_are_disabled_on_Chrome" title="Rosetta Code:Village Pump/RC thinks cookies are disabled on Chrome">Village Pump/RC thinks cookies are disabled on Chrome</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Discouraging_approaches" title="Rosetta Code:Village Pump/Discouraging approaches">Village Pump/Discouraging approaches</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Phix_geshi_file" title="Rosetta Code:Village Pump/Phix geshi file">Village Pump/Phix geshi file</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Syntax_highlighting" title="Rosetta Code:Village Pump/Syntax highlighting">Village Pump/Syntax highlighting</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Old_draft_tasks" title="Rosetta Code:Village Pump/Old draft tasks">Village Pump/Old draft tasks</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/hopl.murdoch.edu.au_Unavailable" title="Rosetta Code:Village Pump/hopl.murdoch.edu.au Unavailable">Village Pump/hopl.murdoch.edu.au Unavailable</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Unlisted_tasks" title="Rosetta Code:Village Pump/Unlisted tasks">Village Pump/Unlisted tasks</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Please_appoint_more_Moderators!" title="Rosetta Code:Village Pump/Please appoint more Moderators!">Village Pump/Please appoint more Moderators!</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/https_links_in_email" title="Rosetta Code:Village Pump/https links in email">Village Pump/https links in email</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Email_protection_in_code" title="Rosetta Code:Village Pump/Email protection in code">Village Pump/Email protection in code</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/RC_extraction_Tool_and_Task" title="Rosetta Code:Village Pump/RC extraction Tool and Task">Village Pump/RC extraction Tool and Task</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/tasks_descriptions_only" title="Rosetta Code:Village Pump/tasks descriptions only">Village Pump/tasks descriptions only</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Did_I_implement_this_new_task_correctly" title="Rosetta Code:Village Pump/Did I implement this new task correctly">Village Pump/Did I implement this new task correctly</a></td></tr><tr class="row-even"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Category_Intersections" title="Rosetta Code:Village Pump/Category Intersections">Village Pump/Category Intersections</a></td></tr><tr class="row-odd"><td class="smwtype_wpg"><a href="https://rosettacode.org/wiki/Rosetta_Code:Village_Pump/Repairing_invisible_formulae" title="Rosetta Code:Village Pump/Repairing invisible formulae">Village Pump/Repairing invisible formulae</a></td></tr><tr class="smwfooter row-even"><td class="sortbottom" colspan="1"><span class="smw-broadtable-furtherresults"><a href="https://rosettacode.org/wiki/Special:Ask/-5B-5BIs-20village-20pump-20topic::true-5D-5D/format%3Dbroadtable/limit%3D15/offset%3D15/sort%3DModification-20date/order%3Ddesc/searchlabel%3Dmore..." title="Special:Ask/-5B-5BIs-20village-20pump-20topic::true-5D-5D/format=broadtable/limit=15/offset=15/sort=Modification-20date/order=desc/searchlabel=more...">more...</a></span></td></tr></tbody></table>
+
+
+
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;oldid=219738">https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;oldid=219738</a>"</div>
+</div>
+
+<div id="catlinks" class="catlinks catlinks-allhidden"></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<nav class="navbar navbar-default p-tb " id="p-tb">
+<ul class="nav navbar-nav small">
+<li id="t-whatlinkshere"><a href="https://rosettacode.org/wiki/Special:WhatLinksHere/Rosetta_Code" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="https://rosettacode.org/wiki/Special:RecentChangesLinked/Rosetta_Code" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="https://rosettacode.org/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;oldid=219738" title="Permanent link to this revision of the page">Permanent link</a></li>
+<li id="t-info"><a href="https://rosettacode.org/mw/index.php?title=Rosetta_Code&amp;action=info" title="More information about this page">Page information</a></li>
+<li id="t-smwbrowselink"><a href="https://rosettacode.org/wiki/Special:Browse/Rosetta_Code" rel="smw-browse">Browse properties</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+
+<ul class="footer-info list-unstyled small" id="footer-info">
+
+<li> This page was last modified on 29 January 2016, at 14:01.</li>
+<li>Content is available under <a class="external" rel="nofollow" href="https://www.gnu.org/licenses/fdl-1.2.html">GNU Free Documentation License 1.2</a> unless otherwise noted.</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6">
+
+<ul class="list-inline footer-places " id="footer-places">
+<li><small><a href="https://rosettacode.org/wiki/Rosetta_Code:Privacy_policy" title="Rosetta Code:Privacy policy">Privacy policy</a></small></li>
+<li><small><a href="https://rosettacode.org/wiki/Rosetta_Code:About" title="Rosetta Code:About">About Rosetta Code</a></small></li>
+<li><small><a href="https://rosettacode.org/wiki/Rosetta_Code:General_disclaimer" title="Rosetta Code:General disclaimer">Disclaimers</a></small></li>
+</ul>
+</div>
+<div class="col-lg-6">
+
+<ul class="list-inline pull-right footer-icons " id="footer-icons">
+
+<li><a href="https://www.gnu.org/licenses/fdl-1.2.html"><img src="Rosetta%20Code_fichiers/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31"></a></li>
+
+<li><a href="https://www.mediawiki.org/"><img src="Rosetta%20Code_fichiers/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="Rosetta%20Code_fichiers/poweredby_mediawiki_132x47.png 1.5x, Rosetta%20Code_fichiers/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a></li>
+<li><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="Rosetta%20Code_fichiers/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"></a></li>
+</ul>
+</div>
+</div>
+</div><script type="e5fe7fff15d55f03ce53a59f-text/javascript">window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.bootstrap.scripts"]);
+} );</script>
+<script type="e5fe7fff15d55f03ce53a59f-text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-1219419-1"]);
+  _gaq.push(["_trackPageview"]);
+
+  (function() {
+    var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+    ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="e5fe7fff15d55f03ce53a59f-text/javascript">window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgBackendResponseTime":617});
+} );</script><script src="Rosetta%20Code_fichiers/rocket-loader.js" data-cf-settings="e5fe7fff15d55f03ce53a59f-|49" defer="defer"></script>
+</body></html>

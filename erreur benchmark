@@ -1,0 +1,239 @@
+[main] Building folder: ERCEM321_Atreyu Atreyu_tests
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/nooblife/ERCEM321_Atreyu/build --config Debug --target Atreyu_tests -j 6 --
+[build] [  9%] Built target Eigen3
+[build] [ 10%] Performing download step (download, verify and extract) for 'Boost_dl'
+[build] [ 20%] Built target googletest
+[build] -- verifying file...
+[build]        file='/home/nooblife/ERCEM321_Atreyu/downloads/boost_1_72_0.tar.bz2'
+[build] -- SHA256 hash of
+[build]     /home/nooblife/ERCEM321_Atreyu/downloads/boost_1_72_0.tar.bz2
+[build]   does not match expected value
+[build]     expected: '59c9b274bc451cf91a9ba1dd2c7fdcaf5d60b1b3aa83f2c9fa143417cc660722'
+[build]       actual: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[build] -- File already exists but hash mismatch. Removing...
+[build] -- Downloading...
+[build]    dst='/home/nooblife/ERCEM321_Atreyu/downloads/boost_1_72_0.tar.bz2'
+[build]    timeout='none'
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] -- Retrying...
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] -- Retry after 5 seconds (attempt #2) ...
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] -- Retry after 5 seconds (attempt #3) ...
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] -- Retry after 15 seconds (attempt #4) ...
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] -- Retry after 60 seconds (attempt #5) ...
+[build] -- Using src='https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2'
+[build] CMake Error at /home/nooblife/ERCEM321_Atreyu/build/Boost_dl-prefix/src/Boost_dl-stamp/download-Boost_dl.cmake:159 (message):
+[build]   Each download failed!
+[build] 
+[build]     error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          error: downloading 'https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2' failed
+[build]          status_code: 35
+[build]          status_string: "SSL connect error"
+[build]          log:
+[build]          --- LOG BEGIN ---
+[build]            Trying 18.195.160.223:443...
+[build] 
+[build]   TCP_NODELAY set
+[build] 
+[build]   Connected to dl.bintray.com (18.195.160.223) port 443 (#0)
+[build] 
+[build]   ALPN, offering h2
+[build] 
+[build]   ALPN, offering http/1.1
+[build] 
+[build]   successfully set certificate verify locations:
+[build] 
+[build]     CAfile: /etc/ssl/certs/ca-certificates.crt
+[build]     CApath: /etc/ssl/certs
+[build] 
+[build]   [5 bytes data]
+[build] 
+[build]   TLSv1.3 (OUT), TLS handshake, Client hello (1):
+[build] 
+[build]   [512 bytes data]
+[build] 
+[build]   OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to dl.bintray.com:443
+[build] 
+[build]   Closing connection 0
+[build] 
+[build]   
+[build] 
+[build]          --- LOG END ---
+[build]          
+[build]     
+[build] 
+[build] 
+[build] make[3]: *** [CMakeFiles/Boost_dl.dir/build.make:91 : Boost_dl-prefix/src/Boost_dl-stamp/Boost_dl-download] Erreur 1
+[build] make[2]: *** [CMakeFiles/Makefile2:346 : CMakeFiles/Boost_dl.dir/all] Erreur 2
+[build] make[1]: *** [CMakeFiles/Makefile2:463 : Tests/Atreyu_tests/CMakeFiles/Atreyu_tests.dir/rule] Erreur 2
+[build] make: *** [Makefile:194 : Atreyu_tests] Erreur 2
+[build] Build finished with exit code 2
+

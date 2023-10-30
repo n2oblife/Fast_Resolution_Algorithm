@@ -1,0 +1,26 @@
+htop : logiciel interface visuel pour voir activité CPU et coeurs
+
+----------------------
+
+rm -rf* : purge le repertoire dans lequel on se trouve
+
+*depuis le build*
+cmake -DCMAKE_BUILD_TYPE=Release .. : dans le build permet de construire le bin pour faire les calculs
+make -j : effectue les calculs à pleine puissance
+
+Une fois les binaires executés, on peut lancer les tests depuis le fichier (./nomdufichier)
+
+----------------------
+
+mpstat -P ALL time > file.txt : pour afficher et ecrire l'utilisation du CPU ert de ses cores tous les times seconde dans le fichier file.txt
+
+----------------------
+
+Pour lancer des commandes avec un fichier C++ on a :ls
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  system("command");
+}

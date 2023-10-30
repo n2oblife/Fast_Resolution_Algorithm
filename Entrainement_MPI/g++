@@ -1,0 +1,2 @@
+Pour transformer cpp en executable :
+g++ sampleProgram.cpp -o sampleExecutable
